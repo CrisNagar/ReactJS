@@ -1,0 +1,84 @@
+.row > * {
+  padding: 0;
+}
+
+.square {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 90px;
+  border: 0;
+}
+
+span.square {
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: rgb(125, 102, 8);
+}
+
+.letter,
+.number {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.letter {
+  height: 45px;
+  line-height: 45px;
+}
+
+.number {
+  width: 45px;
+  line-height: 90px;
+}
+
+.white {
+  background-color: rgba(212, 172, 13, 0.85);
+}
+
+.black {
+  background-color: rgba(110, 44, 0, 0.85);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
